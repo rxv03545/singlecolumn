@@ -40,7 +40,8 @@ img {
 }
 
 
-.page-title,.heading-large {
+.page-title,
+.heading-large {
     font-size: 3rem;
     text-align: center;
 }
@@ -51,6 +52,7 @@ img {
 
 .heading-large {
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .btn {
@@ -94,7 +96,7 @@ img {
 
 .about {
     max-width:736px;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     margin: 3rem auto 4rem;
     color:orange;
 }
@@ -103,3 +105,46 @@ img {
     margin-bottom:3rem;
     color:rgb(47, 34, 15);
 }
+
+.info {
+    width: 100%;
+    max-width:544px;
+    margin:auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+    color:rgb(253, 252, 253);
+    font-weight: bolder;
+}
+
+.info th,
+.info td {
+    border-bottom: 1px solid rgb(220, 220, 220);
+    font-weight: bolder;
+}
+
+.info th {
+    text-align: left;
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.info td {
+    padding: 1rem 0;
+}   
+
+.page-footer{
+    background-image:url(../images/NS525_uddochip_TP_V4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem ;
+    color:black;
+}
+
+.copyright {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top:6rem;
+    color:#fff;
+    background-color:#432;
+    font-size: small;
+}   
