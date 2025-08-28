@@ -130,7 +130,19 @@ img {
     margin-right: 1rem;
 }
 
+.post-thumbnail {
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
 
+.post p {
+    margin-bottom: 1.5rm;
+    line-height: 2;
+}
+
+.post-content {
+    margin-bottom: 2rem;
+}
 
 
 
@@ -142,10 +154,33 @@ img {
 
 
 .page-title,
-.heading-large {
+.heading-large,
+.heading-medium {
     font-size: 3rem;
     text-align: center;
 }
+
+/*サイドバー*/
+.side-menu {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.side-menu li {
+    border-bottom: 1px solid #c9c2bc;
+}
+
+.side-menu a {
+    display: block;
+    padding: 1rem ;
+    color: #432;
+}
+
+.side-menu a:hover {
+    color: #0bd;
+}
+
 .page-title {
     margin-top: 2rem;
     line-height:1.4;
@@ -241,6 +276,8 @@ img {
     font-size: small;
 }   
 
+
+/* デスクトップ版 */
 @media (min-width: 800px) {
     /* 見出し　*/
     .page-title {
@@ -250,6 +287,11 @@ img {
     .heading-large {
         font-size: 4rem;
     }
+
+    .post-title {
+        font-size: 2rem;
+    }
+
 
     /* ヘッダー */
     .page-header {
@@ -261,4 +303,44 @@ img {
     .main-nav {
         font-size: 2rem;    
     }
+
+/*ヘッダーカバー画像*/
+    .sub-cover {
+        height:400px;
+        margin-bottom: 6rem;
+    }
+
+/*NEWS */
+.news-contents {
+    display: flex;
+    justify-content: space-between;
 }
+
+.post {
+    width: 70%;
+}
+
+.sidebar {
+    width: 22%;
+}
+
+.sidebar heading-medium {
+    line-height :1;
+    margin-bottom: 1rem;
+}
+
+/*フッター*/
+    .page-footer {
+        padding-top: 12rem;
+
+    }
+
+.info th {
+    padding-left: 2.5rem;
+}
+
+
+}
+
+
+
