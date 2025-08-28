@@ -18,6 +18,12 @@ img {
     max-width: 100%;
 }
 
+.wrapper {
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
 .align-center {
     text-align: center;
 }
@@ -66,8 +72,9 @@ img {
 }
 
 .btn:hover {
-    background-color: rgb(255, 87, 34);
+    
     opacity: 0.8;
+    translate : 10px -20px;
 }
     /* ヘッダー */
 .page-header {
@@ -148,3 +155,25 @@ img {
     background-color:#432;
     font-size: small;
 }   
+
+@media (min-width: 800px) {
+    /* 見出し　*/
+    .page-title {
+        font-size: 5rem;
+    }
+
+    .heading-large {
+        font-size: 4rem;
+    }
+
+    /* ヘッダー */
+    .page-header {
+        display: flex;
+        padding-top: 1.5rem;
+        justify-content: space-between;
+    }
+
+    .main-nav {
+        font-size: 2rem;    
+    }
+}
