@@ -35,9 +35,104 @@ img {
     height:800px;
 }
 
+.sub-cover {
+    background-size:cover;
+    background-position: center bottom;
+    height:528px;
+    margin-bottom:4rem;
+}
+
+/* HOME */
+
 .cover-home {
     background-image :url(../images/AME19716049_TP_V4.jpg);
 }
+
+.about {
+    max-width:736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 4rem;
+    color:orange;
+}
+
+.about p {
+    margin-bottom:3rem;
+    color:rgb(47, 34, 15);
+}
+
+/*NEWS */
+
+.cover-news {
+    background-image: url(../images/mountain-4531537_1280.jpg);
+}
+
+/*記事部分*/
+.post {
+    margin-bottom:3rem;
+}
+
+.post-title {
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.post-date {
+    font-size: 0.875rem;
+}
+
+.post-info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.875rem;
+}
+
+.post-cat {
+    display:flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.post-cat a {
+    color: #432;
+    background-color: #faf7f0;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.post-cat a:hover {
+    background-color: #c9c2bc;
+}
+
+
+.post {
+    margin-bottom: 4rem;
+}
+
+.post-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-info {
+    font-size: 0.875rem;
+    color: rgb(100, 100, 100);
+}
+
+.post-cat {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-cat li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+
+
+
 
 
 .font-english {
@@ -101,17 +196,7 @@ img {
     color: rgb(210, 244, 13);
 }
 
-.about {
-    max-width:736px;
-    padding: 0 1.5rem;
-    margin: 3rem auto 4rem;
-    color:orange;
-}
 
-.about p {
-    margin-bottom:3rem;
-    color:rgb(47, 34, 15);
-}
 
 .info {
     width: 100%;
