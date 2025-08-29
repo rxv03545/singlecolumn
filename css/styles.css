@@ -209,6 +209,12 @@ img {
     opacity: 0.8;
     translate : 10px -20px;
 }
+
+/*iframe*/
+iframe {
+    width: 100%;
+}
+
     /* ヘッダー */
 .page-header {
     padding-top: 5rem;
@@ -285,6 +291,26 @@ img {
     color: rgb(47, 34, 15);
 }
 
+/*CONTACT */
+.cover-contact {
+    background-image: url(../images/mountain-4531537_1280.jpg);
+}
+
+/*店舗情報*/
+.location {
+    margin-bottom: 3.5rem;
+}
+
+.location-info {
+    margin-bottom: 2rem;
+}
+
+.location-info .info {
+    color: chocolate;
+    padding : 0;
+}
+
+
 
 .page-footer{
     background-image:url(../images/NS525_uddochip_TP_V4.jpg);
@@ -302,6 +328,8 @@ img {
     background-color:#432;
     font-size: small;
 }   
+
+
 
 
 /* デスクトップ版 */
